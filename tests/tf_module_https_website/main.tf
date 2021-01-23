@@ -5,7 +5,8 @@ provider "aws" {
 }
 
 module "https-static-site" {
-  source      = "git@github.com:distroJack/tf_module_https_website.git"
+  # source      = "git@github.com:distroJack/tf_module_https_website.git"
+  source      = "../../modules/tf_module_https_website"
   base_domain = "d4iry.com"
   static_path = "./static_files"
   profile     = "default"
