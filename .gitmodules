@@ -1,3 +1,6 @@
 [submodule "modules/tf_module_website"]
 	path = modules/tf_module_website
 	url = git@github.com:distroJack/tf_module_website.git
+[submodule "modules/tf_module_https_website"]
+	path = modules/tf_module_https_website
+	url = git@github.com:distroJack/tf_module_https_website.git
