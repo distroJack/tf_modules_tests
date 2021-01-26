@@ -7,3 +7,6 @@
 [submodule "modules/tf_module_rest_api"]
 	path = modules/tf_module_rest_api
 	url = git@github.com:distroJack/tf_module_rest_api.git
+[submodule "modules/providers/terraform-provider-archive"]
+	path = modules/providers/terraform-provider-archive
+	url = git@github.com:distroJack/terraform-provider-archive.git
