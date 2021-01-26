@@ -5,10 +5,11 @@ provider "aws" {
 }
 
 module "static-site" {
-  source                  = "../../website"
-  base_domain             = "d4iry.com"
-  static_path             = "./static_files"
-  enable_logging          = false
+  # source                  = "git@github.com:distroJack/tf_module_website.git"
+  source         = "../../modules/website"
+  base_domain    = "d4iry.com"
+  static_path    = "./static_files"
+  enable_logging = false
 }
 
 output "test_out" {
