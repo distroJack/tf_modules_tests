@@ -4,6 +4,6 @@
 [submodule "modules/tf_module_https_website"]
 	path = modules/tf_module_https_website
 	url = git@github.com:distroJack/tf_module_https_website.git
-[submodule "modules/providers/terraform-provider-archive"]
-	path = modules/providers/terraform-provider-archive
+[submodule "providers/terraform-provider-archive"]
+	path = providers/terraform-provider-archive
 	url = git@github.com:distroJack/terraform-provider-archive.git
